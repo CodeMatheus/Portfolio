@@ -486,7 +486,7 @@ footer {
 {
     .header-color-underline {
         position: absolute;
-        left: 68%;
+        left: 65%;
         top: 32%;
     }
     .banner button {
@@ -520,5 +520,13 @@ footer {
     }
     .foot-social-media li {
         margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 376px)
+{
+    .header-color-underline {
+        left: 74%;
+        top: 32%;
     }
 }
